@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-gituhub/static/css/main.c2cab247.css",
-    "main.js": "/portfolio-gituhub/static/js/main.a66d8860.js",
+    "main.js": "/portfolio-gituhub/static/js/main.d35e15ef.js",
     "index.html": "/portfolio-gituhub/index.html",
     "main.c2cab247.css.map": "/portfolio-gituhub/static/css/main.c2cab247.css.map",
-    "main.a66d8860.js.map": "/portfolio-gituhub/static/js/main.a66d8860.js.map"
+    "main.d35e15ef.js.map": "/portfolio-gituhub/static/js/main.d35e15ef.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.a66d8860.js"
+    "static/js/main.d35e15ef.js"
   ]
 }
