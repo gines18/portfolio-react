@@ -1,20 +1,21 @@
 import React from "react";
+import "./Home.css"
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+    <>
+    <div className="container1">
+    <h1>Who is Web developer?</h1>
+    <p>Let's  find out</p>
     </div>
+
+    <div className="container2">
+   <div className="square"></div>
+  
+   <p className="text">A Web Developer is a professional who is responsible for the design and construction of websites. They ensure that sites meet user expectations by ensuring they look good, run smoothly and offer easy access points with no loading issues between pages or error messages.</p>
+   </div>
+
+    </>
   );
 }
 
