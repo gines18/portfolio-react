@@ -27,12 +27,12 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/portfolio-react/blog"
+          to="/portfolio-react/portfolio"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
+          Portfolio
         </NavLink>
       </li>
       <li className="nav-item">

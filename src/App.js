@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Blog from './components/pages/Blog';
+import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
+
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/portfolio-react/" element={<Home />} />
           <Route path="/portfolio-react/about" element={<About />} />
-          <Route path="/portfolio-react/blog" element={<Blog />} />
+          <Route path="/portfolio-react/portfolio" element={<Portfolio />} />
           {/* Define a route that will have descendant routes */}
           <Route path="/portfolio-react/contact/*" element={<Contact />} />
         </Routes>
