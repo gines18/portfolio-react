@@ -4,9 +4,15 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 100px;
+    z-index: -2;
 }
+
 .card{
     margin-bottom: 20px;
+}
+
+.btn{
+    margin: 5px;
 }
 
 @keyframes cube {
@@ -21,9 +27,9 @@
 }
 
 .background {
-    position: fixed;
+    position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 135vh;
     top: 41px;
     left: 0;
     z-index: -1;
@@ -122,4 +128,5 @@
     top: 69vh;
     border-color: #0046d4;
 }
+
 

@@ -1,16 +1,27 @@
-import React from "react";
+import React from 'react';
+import { Link, Route, Routes } from 'react-router-dom';
+import './Contact.css'
 
-function Learn() {
+
+function Contact(props) {
   return (
-    <div>
-      <h1 className="text-center">hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
-      </p>
-    </div>
+  <>
+<div className='container5'>
+
+    <Link to="http://www.google.com" target="_blank" role="button" className=" original-button text-decoration-none btn-link">
+    PDF CV
+    </Link>
+    <Link to="https://github.com/gines18" target="_blank" role="button" className="original-button text-decoration-none btn-link">
+   GitHub
+    </Link>
+    <Link to="https://www.linkedin.com/in/mariusz-ruczkowski-824513203/" target="_blank" role="button" className="original-button text-decoration-none  btn-link">
+   LinkedLn
+    </Link>
+
+</div>
+
+    </>
   );
 }
 
-export default Learn;
+export default Contact;
