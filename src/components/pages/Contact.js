@@ -3,6 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Learn from './Learn';
 import './Contact.css'
 import background2 from '../../images/contact.jpeg'
+import Footer from './Footer.js'
 
 function Contact(props) {
   return (
@@ -22,7 +23,7 @@ function Contact(props) {
     </Routes>
 
 </div>
-
+<Footer />
     </>
   );
 }

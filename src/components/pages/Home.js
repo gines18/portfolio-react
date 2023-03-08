@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css"
 import background from '../../images/svg.png'
 import background2 from '../../images/macbook.jpeg'
-
+import Footer from './Footer.js'
 
 function Home() {
   return (
@@ -33,6 +33,7 @@ Overall, a good frontend programmer can help to create a professional and engagi
     <img src={background2} alt="logo"></img>
    </div>
    </div>
+<Footer />
     </>
   );
 }

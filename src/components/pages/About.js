@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css"
 import background3 from '../../images/child-1837375__340.webp'
-
+import Footer from './Footer.js'
 
 
 
@@ -17,10 +17,9 @@ function About() {
       I've been teaching myself frontend development for the last 4 months or so, and I've learned a lot about HTML, CSS, and JavaScript. I've also experimented with various frameworks and libraries, like React and Bootstrap, and I'm excited to continue exploring new technologies and techniques. 
       <br></br>   <br></br>
       Let's have a look at my portfolio now ...
-
       </h1>
-      
     </div>
+    <Footer />
     </>
   );
 }

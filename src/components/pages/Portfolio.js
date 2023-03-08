@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "./PortfolioCard.js"
-
+import Footer from './Footer.js'
 
 const ProjectsData = [
   {
@@ -50,7 +50,7 @@ const ProjectsData = [
 
 export default function Portfolio() {
 return (
-  
+  <>
 <div className="Portfolio">
 
 <ul class="background">
@@ -71,5 +71,7 @@ return (
 <Projects title={project.title} image={project.image} description={project.description} link={project.link} link2={project.link2}/>
   ))}
   </div>
+   <Footer />
+   </>
 );
 }
