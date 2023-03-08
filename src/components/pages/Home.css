@@ -38,7 +38,7 @@ body{
 
 .text{
     display: flex;
-   
+    font-family: 'Quicksand', sans-serif;
     width: 400px;
    
 }

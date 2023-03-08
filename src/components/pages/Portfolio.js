@@ -13,14 +13,14 @@ const ProjectsData = [
   {
     image: './images/HomeSection.jpg',
     title: "Portfolio",
-    description: "This portfolio showing my ability to use CSS Grid Layout.",
+    description: "This website showing my ability to use CSS Grid, a two-dimensional grid-based layout system used to built gallery. ",
     link: "https://github.com/gines18/NewPortfolio2022",
     link2: "https://gines18.github.io/NewPortfolio2022/",
   },
   {
     image: './images/readme.jpg',
     title: "Readme generator",
-    description: "Create your Readme without a hassle. Node.js, npm.",
+    description: "Create your Readme without a hassle. This app will help you to create professional and outstanding Readme. I used Node.js and npm.",
     link: "https://github.com/gines18/Generate_Readme",
     link2: "https://watch.screencastify.com/v/ygGS12QVwYs5cgao7G0A",
 
@@ -28,7 +28,7 @@ const ProjectsData = [
   {
     image: './images/workSchedule.jpg',
     title: "Work Scheduling App",
-    description: "Plan your work day with easy to use app.",
+    description: "Plan your work day with easy to use app. User can save meetings and plans in browser having access for it even if website is refreshed.",
     link: "https://github.com/gines18/Job-Scheduling-App",
     link2: "https://gines18.github.io/Job-Scheduling-App/",
   },
@@ -40,11 +40,11 @@ const ProjectsData = [
     link2: "https://wlomac.github.io/YourLocal/",
   },
   {
-    image: './images/certificate.jpg',
-    title: "My certificates",
-    description: "In this Responsive Web Design Certification, I've learnt the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-    link: "https://github.com/gines18/My-certificates",
-    link2: "https://gines18.github.io/freecodecamp-ProductLandingPage/",
+    image: './images/quiz.jpg',
+    title: "Quiz App With Timer",
+    description: "Multiple-choice quiz that keep track of high scores and quiz-takers' initials. User have one minute to answer all questions, his high score is stored for future compare. App created using Java Script. ",
+    link: "https://github.com/gines18",
+    link2: "https://gines18.github.io/Quiz-App-With-Timer/",
   },
   ];
 
