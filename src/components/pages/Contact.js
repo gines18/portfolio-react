@@ -8,9 +8,11 @@ import Footer from './Footer.js'
 function Contact(props) {
   return (
   <>
-    <div className='container4'>
-<img className="img1" src={background2} alt="contact"/>
-    </div>
+
+
+<div class="card border-0">
+<h1 className="header">Crafting beautiful digital experiences, one pixel at a time.</h1>
+  <div class="card-body">
 <div className='container5'>
     <Link to="learn" role="button" className=" original-button text-decoration-none btn-link">
    Contact me
@@ -19,8 +21,17 @@ function Contact(props) {
     <Route path="learn" element={<Learn />} />
     </Routes>
 </div>
-<Footer />
+  </div>
+</div>
 
+    <div className='container4'>
+<img className="img1" src={background2} alt="contact"/>
+    </div>
+<br></br>
+
+   
+<Footer />
+    
     </>
   );
 }

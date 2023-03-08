@@ -1,4 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
 .container3{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +24,7 @@
     padding: 15px;
     background-color: #816461;
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
