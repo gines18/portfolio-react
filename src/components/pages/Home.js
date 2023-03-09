@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
     <div className="container1">
-    <h1>Who is FrontEnd Web developer?</h1>
+    <p>Who is FrontEnd Web developer?</p>
     <p>Let's  find out</p>
     </div>
     <div className="container2">

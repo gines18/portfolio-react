@@ -9,6 +9,7 @@
 
 .card{
     margin-bottom: 20px;
+
 }
 .card-body{
     min-height:250px;
@@ -19,118 +20,13 @@
     margin: 5px;
 }
 
-@keyframes cube {
-    from {
-        transform: scale(0) rotate(0deg) translate(-50%, -50%);
-        opacity: 1;
+@media (max-width: 390px){
+    .card img{
+       top: 0px;
     }
-    to {
-        transform: scale(20) rotate(960deg) translate(-50%, -50%);
-        opacity: 0;
+    .card-container{
+        position: relative;
+        top: -90px;
+    
     }
 }
-
-.background {
-    position: absolute;
-    width: 100vw;
-    height: 135vh;
-    top: 41px;
-    left: 0;
-    z-index: -1;
-    padding: 0px;
-    background: #0040C1;
-    overflow: hidden;
-}
-.background li {
-    position: absolute;
-    top: 80vh;
-    left: 45vw;
-    width: 10px;
-    height: 10px;
-    border: solid 1px #0039ad;
-    color: transparent;
-    transform-origin: top left;
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    animation: cube 7s ease-in forwards infinite;
-}
-
-.background li:nth-child(0) {
-    animation-delay: 0s;
-    left: 49vw;
-    top: 33vh;
-}
-
-.background li:nth-child(1) {
-    animation-delay: 2s;
-    left: 63vw;
-    top: 77vh;
-}
-
-.background li:nth-child(2) {
-    animation-delay: 4s;
-    left: 17vw;
-    top: 90vh;
-}
-
-.background li:nth-child(3) {
-    animation-delay: 6s;
-    left: 9vw;
-    top: 95vh;
-    border-color: #0046d4;
-}
-
-.background li:nth-child(4) {
-    animation-delay: 8s;
-    left: 70vw;
-    top: 65vh;
-    border-color: #0046d4;
-}
-
-.background li:nth-child(5) {
-    animation-delay: 10s;
-    left: 37vw;
-    top: 0vh;
-}
-
-.background li:nth-child(6) {
-    animation-delay: 12s;
-    left: 90vw;
-    top: 43vh;
-    border-color: #0046d4;
-}
-
-.background li:nth-child(7) {
-    animation-delay: 14s;
-    left: 95vw;
-    top: 51vh;
-    border-color: #0046d4;
-}
-
-.background li:nth-child(8) {
-    animation-delay: 16s;
-    left: 51vw;
-    top: 37vh;
-    border-color: #0046d4;
-}
-
-.background li:nth-child(9) {
-    animation-delay: 18s;
-    left: 6vw;
-    top: 23vh;
-}
-
-.background li:nth-child(10) {
-    animation-delay: 20s;
-    left: 27vw;
-    top: 15vh;
-    border-color: #0046d4;
-}
-
-.background li:nth-child(11) {
-    animation-delay: 22s;
-    left: 78vw;
-    top: 69vh;
-    border-color: #0046d4;
-}
-
-

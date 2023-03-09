@@ -31,7 +31,6 @@
     justify-content: center;
     align-items: start;
     width: 100%;
- 
     flex-wrap: wrap;
 }
 
@@ -68,5 +67,20 @@
  }
 .card-body{
     font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 390px){
+.header{
+    font-size: 1.5rem;
+}
+.img1{
+    position: relative;
+    top: -30px;
+    width: 250px;
+    height: 200px;
+}
+.container4{
+    height: 40vh;
+}
 
 }

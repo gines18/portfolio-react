@@ -52,21 +52,6 @@ export default function Portfolio() {
 return (
   <>
 <div className="Portfolio">
-
-<ul class="background">
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-</ul>
   {ProjectsData.map((project) => (
 <Projects title={project.title} image={project.image} description={project.description} link={project.link} link2={project.link2}/>
   ))}
