@@ -8,8 +8,6 @@ import Footer from './Footer.js'
 function Contact(props) {
   return (
   <>
-
-
 <div class="card border-0">
 <h1 className="header">Crafting beautiful digital experiences, one pixel at a time.</h1>
   <div class="card-body">
@@ -23,15 +21,11 @@ function Contact(props) {
 </div>
   </div>
 </div>
-
     <div className='container4'>
 <img className="img1" src={background2} alt="contact"/>
     </div>
 <br></br>
-
-   
 <Footer />
-    
     </>
   );
 }

@@ -51,11 +51,31 @@ const ProjectsData = [
 export default function Portfolio() {
 return (
   <>
+  <h1 className="header2">Explore projects I have made during FrontEnd Web Development bootcamp!</h1>
 <div className="Portfolio">
   {ProjectsData.map((project) => (
 <Projects title={project.title} image={project.image} description={project.description} link={project.link} link2={project.link2}/>
   ))}
   </div>
+
+<div className="container">
+  <div className="row d-flex justify-content-center">
+<div className="col-10 col-md-8">
+  <ul class="list-group">
+  <li class="list-group-item active" aria-current="true">After Bootcamp I will have knowledge about:</li>
+  <li class="list-group-item">HTML/CSS</li>
+  <li class="list-group-item">Java Script</li>
+  <li class="list-group-item">UX & Advanced CSS</li>
+  <li class="list-group-item">Working with Web APIs</li>
+  <li class="list-group-item">Working with ES6 and Node</li>
+  <li class="list-group-item">Object-Oriented Programming</li>
+  <li class="list-group-item">Modern Development with React</li>
+</ul>
+</div>
+</div>
+</div>
+
+  
    <Footer />
    </>
 );
