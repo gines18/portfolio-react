@@ -62,7 +62,7 @@ return (
   <div className="row d-flex justify-content-center">
 <div className="col-10 col-md-8">
   <ul class="list-group">
-  <li class="list-group-item active" aria-current="true">After Bootcamp I will have knowledge about:</li>
+  <li class="list-group-item active" aria-current="true">I have knowledge about:</li>
   <li class="list-group-item">HTML/CSS</li>
   <li class="list-group-item">Java Script</li>
   <li class="list-group-item">UX & Advanced CSS</li>

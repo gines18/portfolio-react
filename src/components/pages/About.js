@@ -12,7 +12,7 @@ function About() {
 
    <img src={background3} alt="avatar"></img>
       
-      <h1 className="description">Hey there! <br></br><br></br> My name is Mariusz, and I'm an aspiring frontend developer. I'm really passionate about creating beautiful and functional websites and applications that make a positive impact on people's lives.
+      <h1 className="description">Hey there! <br></br><br></br> My name is Mariusz Ruczkowski, and I'm an aspiring frontend developer. I'm really passionate about creating beautiful and functional websites and applications that make a positive impact on people's lives.
 
       I've been teaching myself frontend development for the last 4 months or so, and I've learned a lot about HTML, CSS, and JavaScript. I've also experimented with various frameworks and libraries, like React and Bootstrap, and I'm excited to continue exploring new technologies and techniques. 
       <br></br>   <br></br>
