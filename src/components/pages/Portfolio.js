@@ -46,6 +46,13 @@ const ProjectsData = [
     link: "https://github.com/gines18",
     link2: "https://gines18.github.io/Quiz-App-With-Timer/",
   },
+  {
+    image: './images/coffee-website.png',
+    title: "Coffee",
+    description: "Explore the world of coffee with our comprehensive website, featuring brewing guides, expert reviews, and a wide selection of premium beans from around the globe.",
+    link: "https://github.com/gines18",
+    link2: "https://gines18.github.io/",
+  },
   ];
 
 export default function Portfolio() {
