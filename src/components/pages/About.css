@@ -45,4 +45,15 @@
  }
 
 }
+
+@media (max-width: 535px){
+  img{
+    position: relative;
+    top: 20px;
+    width: 300px;
+  }
+  .description{
+    margin: 50px;
+   }
   
+}
