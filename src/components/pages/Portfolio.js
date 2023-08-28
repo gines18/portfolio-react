@@ -11,6 +11,13 @@ const ProjectsData = [
     link2: "https://gines18.github.io/Improved-semantic-elements/",
   },
   {
+    image: './images/the.png',
+    title: "The Spark",
+    description: "I have made a copy of the www.thespark.org.uk website using React to practice my skills.",
+    link: "https://github.com/gines18/The_Spark",
+    link2: "https://zingy-clafoutis-9c7097.netlify.app",
+  },
+  {
     image: './images/HomeSection.jpg',
     title: "Portfolio",
     description: "This website showing my ability to use CSS Grid, a two-dimensional grid-based layout system used to built gallery. ",

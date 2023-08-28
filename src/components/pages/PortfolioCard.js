@@ -8,7 +8,7 @@ const { title, image, description, link, link2} = props;
 return (
       <div className="card-container">
       <div className="card" style={{width: "15rem"}}>
-  <img src={`${image}`} className="card-img-top" alt="laptop"></img>
+  <img src={`${image}`} className="card-img-top" alt="website-img"></img>
   <div className="card-body">
     <h5 className="card-title">{`${title}`}</h5>
     <p className="card-text">{`${description}`}</p>
